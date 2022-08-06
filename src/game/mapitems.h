@@ -140,6 +140,8 @@ struct CMapItemGroup : public CMapItemGroup_v1
 	int m_ClipH;
 
 	int m_aName[3];
+
+    // int m_ParallaxZoom; // Used by DDNet in m_Version >= 4
 } ;
 
 struct CMapItemLayer
